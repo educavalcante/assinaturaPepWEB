@@ -1,0 +1,688 @@
+#btnRetirarDoc{
+    background: #ff2222 !important;
+    border-color: #ff2222 !important;
+}
+::selection {
+    color: #fff;
+    background: #1c3f7abd;
+    text-shadow: none;
+}
+/* ============  reset icone de notificacao  ================ */
+.navbar-nav > .notifications-menu > .dropdown-menu > li.header, .navbar-nav > .messages-menu > .dropdown-menu > li.header, .navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+    background-color: #254078;
+    padding: 7px 10px;
+    border-bottom: 1px solid #e1e6ef;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar-nav > li > a > i {
+        padding: 6px 3px;
+        width: 31px;
+        text-align: center;
+        color: #FFFFFF !important;
+        height: 36px;
+        font-size: 25px;
+    }
+/* ============  fim reset icone de notificacao  ================ */
+
+    .sidebar-menu .treeview-menu > li::before {
+        left: 0;
+        top: 13px;
+        width: 15px;
+        content: " ";
+        position: absolute;
+        display: inline-block;
+        border: 1px solid #ffffff !important;
+    }
+
+    .dropdown-menu > li > a {
+        color: #000000 !important;
+
+    }
+
+    .dropdown-menu {
+        border-color: #ffffff !important;
+    }
+
+    .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+        background-color: #eeeeee21;
+        border-color: #eeeeee21;
+    }
+
+    .select {
+        margin-top: 5px;
+        width: 15% !important;
+    }
+
+    #bloqueado {
+        /* botão para quando o download não estiver liberado */
+        background-color: #ff2222 !important;
+        border-color: #ff2222 !important;
+    }
+
+    #pendente {
+        background-color: #FFC107;
+        border-color: #FFC107;
+    }
+
+    .w3-black, .w3-hover-black:hover {
+        color: #fff !important;
+        background-color: #024181 !important;
+    }
+
+    #versao {
+        color: #FFF;
+        text-align: left !important;
+        background: linear-gradient(-125deg, #933959, #024181) !important;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .ibox-content {
+        margin-left: 250px !important;
+    }
+
+    #sair {
+        float: right;
+    }
+
+    #usuarioLogado {
+        margin-right: 100px;
+        margin-top: 10px;
+        float: right;
+    }
+
+    #tabelaDocumentos_processing {
+        background-color: #0667AC !important;
+        color: #FFFFFF !important;
+
+    }
+
+    .nome {
+        color: #E70003 !important;
+    }
+
+    #linkCpc {
+        color: #FFF !important;
+        background-color: #FFF !important;
+    }
+
+    #logoCpcPaciente {
+        margin-left: 180px;
+        width: 110px !important;
+
+    }
+
+    h1, .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+        font-weight: 400;
+        line-height: 1;
+        color: #FFF;
+        font-size: 14px;
+    }
+
+
+    .filtros a:hover {
+        background-color: #afa8a8 !important;
+        border-color: #FFF;
+    }
+
+
+    /*a:hover{*/
+    /*    background-color: #afa8a8 !important;*/
+    /*    border-color: #afa8a8 !important;*/
+    /*}*/
+    .btn-primary {
+        background-color: #0667AC !important;
+        border-color: #0667AC !important;
+        color: #FFFFFF;
+    }
+
+    .wrap-login100 {
+        background: #FFF !important;
+    }
+
+    .container-login100 {
+        background: #0667AC;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #dc3545, #024181) !important;
+    }
+
+    .wrap-login100 {
+        background: #EDEDED;
+    }
+
+    .login100-form-btn {
+        color: #fff;
+        background: #0667AC;
+    }
+
+    .focus-input100 {
+        display: block;
+        position: absolute;
+        border-radius: 25px;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 0px 0px;
+        color: #0667AC;
+    }
+
+    .symbol-input100 {
+        font-size: 15px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        border-radius: 25px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-left: 35px;
+        pointer-events: none;
+        color: #0667AC !important;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+
+
+    .form-pacs {
+        margin-bottom: -15px !important;
+    }
+
+    .form-pacs input[type="date"] {
+        line-height: 22px !important;
+    }
+
+    .form-pacs .botoes {
+        margin-bottom: 0 !important;
+    }
+
+    .form-pacs .botoes button {
+        width: 100% !important;
+    }
+
+    .form-pacs .botoes .btn1 {
+        padding-right: 0 !important;
+    }
+
+    /*btn limpar pesquisa*/
+    /*.float-e-margins .btn {
+        margin-bottom: 0 !important;
+        margin-top: -8px;
+    }*/
+    /*botões de filtro*/
+    .btn-filtro a {
+        width: 24%;
+
+    }
+
+    .table-hover tr:hover {
+        background: #afa8a8 !important;
+
+    }
+
+    footer {
+        color: #ffffff;
+    }
+
+    #imagemZip {
+        width: 20px;;
+    }
+
+    .ibox-title {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #ffffff !important;
+        border-color: #e7eaec;
+        border-image: none;
+        border-style: solid solid none;
+        border-width: 2px 0 0;
+        color: inherit;
+        margin-bottom: 0;
+        padding: 15px 15px 7px;
+        min-height: 4px;
+    }
+
+    body {
+        font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #FFF;
+        font-size: 13px;
+        color: #676a6c;
+        overflow-x: hidden;
+        width: 100% !important;
+        margin-top: -20 !important;
+    }
+
+    #linkFooter {
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    /* ================================================================================================= */
+    .infoPacienteMenu {
+        color: #FFF !important;
+    }
+
+    /* #imgPacienteMenu{
+      width: 30px;
+    } */
+    .sidebar-menu, .main-sidebar .user-panel, .sidebar-menu > li.header {
+        white-space: inherit;
+        overflow: hidden;
+    }
+
+    .user-panel .info {
+        padding-top: 0;
+        line-height: 14px;
+    }
+
+    #campoDataAgenda {
+        position: relative;
+        float: right;
+        margin-top: -40px;
+        margin-right: 10px;
+    }
+
+    #btnDataAgenda {
+        position: relative;
+        float: right;
+    }
+
+    #filtro {
+        text-align: right;
+        float: right !important;
+    }
+
+    #localData {
+        margin-top: 10%;
+        margin-right: 50px;
+        background-color: #FFF !important;
+        border-color: #FFF !important;
+    }
+
+    #close:before {
+        display: block;
+        float: right;
+        margin-top: 8px;
+    }
+
+    .ti-close:before {
+        display: none;
+    }
+
+    .dropdown-menu > li > a > i {
+        color: 000 !important;
+        background-color: #FFF;
+    }
+
+    .btn-info {
+        /* reset icone alterar paciente */
+        color: #fff;
+        background-color: #1563a2;
+        border-color: #1563a2;
+    }
+
+    .cardbox {
+        /* mapa de pacientes botões onde mostra nome,cps,data conveno */
+        background-color: #1563a2;
+        border: 1px solid #1563a2;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        height: auto !important;
+
+    }
+
+    #imgLogoBar {
+        alt: Logo Cpc;
+        width: 80%;
+        height: 60%;
+        border-radius: 8px;
+        margin: 10px;
+    }
+
+    #logoCpc {
+        margin-top: 20px;
+        alt: Logo Cpc;
+        width: 60%;
+        border-radius: 8px;
+        margin: 10px;
+    }
+
+    h1 {
+        /* Reset todos h1 para essa cor*/
+        color: #1563a2 !important;
+    }
+
+    .user-panel {
+        /* Pedro
+      reseta o css na div onde mostra o usuario que estar logado eo setor !
+      */
+        position: relative;
+        width: 100%;
+        padding: 20px 10px;
+        overflow: hidden;
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+        color: burlywood;
+        border-bottom: 2px solid #613C67;
+    }
+
+    .main-header .logo {
+        position: fixed !important;
+
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+    }
+
+    .main-header {
+        /* Pedro
+          reset no header (parte cima) principal
+          */
+        position: relative;
+        max-height: 120px;
+        z-index: 1030;
+        /* background-color: #2d3438; */
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #024181, #913A5A) !important;
+        /*
+          border-bottom: 1px solid #2d3438; */
+    }
+
+
+    .sidebar-menu .treeview-menu {
+        position: relative;
+        display: none;
+        list-style: none;
+        padding: 5px 0 10px;
+        margin: 0;
+        padding-left: 35px;
+        color: #FFF !important;
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+        /* background-color: #161817; */
+    }
+
+
+    .main-header .sidebar-toggle {
+        /*Pedro
+          reset do botao nav bar
+           */
+        float: left;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFF !important;
+        font-size: 25px;
+        line-height: 26px;
+        cursor: pointer;
+        margin-top: 7px;
+        cursor: pointer;
+        -moz-transition: all 0.2s ease-out 0;
+        -webkit-transition: all 0.2s ease-out 0;
+        transition: all 0.2s ease-out 0;
+    }
+
+    /* Pedro
+    reset dos maps no menu principal ====================================================================*/
+    .cardbox {
+        background-color: #1563a2;
+        border: 1px solid #1563a2;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        height: 120px;
+    }
+
+    /*==================================================================================================*/
+    .toast-success {
+        /*Pedro
+          reset o popup logo no inicio do menu principal
+          */
+        background-color: #1563a2;
+    }
+
+    .h1Titulos {
+        /*Pedro
+          reset todos os titulos com essa classe
+          */
+        color: #2d3438 !important;
+    }
+
+    .content-header .header-icon {
+        /* Pedro
+          reset icone(do painel) no menu principal
+          */
+        font-size: 55px;
+        color: #1563a2;
+        width: 68px;
+        float: left;
+        margin-top: -4px;
+        line-height: 0;
+    }
+
+    .content-header {
+        height: 120px;
+    }
+
+    .sidebar-menu > li > a {
+        /*Pedro
+          reset os icones na lateral esquerda do menu
+          */
+        padding: 12px 5px 12px 15px;
+        display: block;
+        color: #fff;
+        position: relative;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        border-color: #FFF !important;
+
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+
+    }
+
+    .sidebar-menu > li.active > a:before {
+        background: #1563a2;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 3px;
+        color: #1563a2;
+    }
+
+    .sidebar-menu > li:hover > a,
+    .sidebar-menu > li.active > a {
+        color: #000;
+        background: #FFF !important;
+    }
+
+    .sidebar-menu .treeview-menu > li::before {
+        left: 0;
+        top: 13px;
+        width: 15px;
+        content: " ";
+        position: absolute;
+        display: inline-block;
+        border: 1px solid #024181;
+    }
+
+    .sidebar-menu .treeview-menu > li.active > a,
+    .sidebar-menu .treeview-menu > li:hover > a {
+        /*Pedro
+          reset ao passar o mouse sobre os link no
+          */
+        color: #000;
+        background: #fff;
+    }
+
+    /* footer*/
+    a {
+        /* Reset as cores do links */
+        color: #1563a2;
+    }
+
+    :hover,
+    a:active,
+    a:focus {
+    }
+
+    /*=========================================*/
+    .btn-primary.btn-outline {
+        color: #fff;
+        background-color: #1563a2 !important;
+        border: #1563a2 !important;
+        border-radius: 5%;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        float: right;
+    }
+
+    #DataTables_Table_0_filter {
+        /* Reset filtro de pesquisa da tabela para a direita*/
+        float: right;
+    }
+
+    #btnAdicionarIntensTabela {
+        /* Reset botao adiconar itens para a esquerda */
+        float: left;
+    }
+
+    .btn {
+        background-color: #1563a2;
+        color: #fff;
+        border-color: #1563a2;
+        margin: 5px;
+    }
+
+    .pagination > .active > a,
+    .pagination > .active > a:focus,
+    .pagination > .active > a:hover,
+    .pagination > .active > span,
+    .pagination > .active > span:focus,
+    .pagination > .active > span:hover {
+        z-index: 3;
+        color: #fff;
+        cursor: default;
+        background-color: #1563a2;
+        border-color: #1563a2;
+    }
+
+    .main-sidebar {
+        /* reset o menu esquerda para ficar fixo na página... */
+        position: fixed;
+
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+    }
+
+
+    /* index (tela de login) ========================================================================================= */
+    .wrap-login100 {
+        background: #FFF !important;
+    }
+
+    .container-login100 {
+        background: #0667AC;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #dc3545, #024181) !important;
+    }
+
+    .wrap-login100 {
+        background: #EDEDED;
+    }
+
+    .login100-form-btn {
+        color: #fff;
+        background: #0667AC;
+    }
+
+    .focus-input100 {
+        display: block;
+        position: absolute;
+        border-radius: 25px;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 0px 0px;
+        color: #0667AC;
+    }
+
+    .symbol-input100 {
+        font-size: 15px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        border-radius: 25px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-left: 35px;
+        pointer-events: none;
+        color: #0667AC !important;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+
+    .footerIndex {
+        font-size: 10px !important;
+        color: #FFF !important;
+        background: #0667AC !important;
+        background: -webkit-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -o-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: -moz-linear-gradient(-135deg, #E70003, #024181) !important;
+        background: linear-gradient(-125deg, #943959, #024181) !important;
+    }
+
+    #version {
+        margin-right: 10px !important;
+    }
